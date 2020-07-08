@@ -1,0 +1,17 @@
+
+#title, #description {
+    text-align: center;
+}
+
+form {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+input {
+    width: 80%;
+}

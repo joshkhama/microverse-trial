@@ -20,11 +20,13 @@
 
   <form id="survey-form">
     <label for="name" id="name-label">Name:</label>
-    <input type="text" id="name" placeholder="Enter your name" required>
+    <input type="text" id="name" placeholder="Enter your name" required><br>
     <label for="email" id="email-label">Email:</label>
-    <input type="email" name="email" id="email" placeholder="Enter Email Address" required>
+    <input type="email" name="email" id="email" placeholder="Enter Email Address" required><br>
     <label for="number" id="number-label">Age:</label>
-    <input type="number" name="number" id="number" placeholder="Age" required min="12" max="120">
+    <input type="number" name="number" id="number" placeholder="Age" required min="12" max="120"><br>
+
+    <!-- Dropdown-->
     <label for="dropdown">My Favorite Activity</label>
     <select name="favorite" id="dropdown">
       <option value="default">Select an option</option>
@@ -32,24 +34,27 @@
       <option value="internet">Intenet</option>
       <option value="reading">Reading</option>
     </select>
+    <br>
+    <!--Radio Input-->
     <label for="less-favorite">My Less Favorite Activity</label>
     <input type="radio" name="less-favorite" id="sleeping" value="sleeping">
-    <label for="sleeping">Sleeping</label>
+    <label for="sleeping">Sleeping</label><br>
     <input type="radio" name="less-favorite" id="walking" value="walking">
-    <label for="walking">Walking</label>
+    <label for="walking">Walking</label><br>
 
     <!--Checkboxes-->
     <input type="checkbox" name="checker" value="tea" id="tea">
-    <label for="tea">Tea</label>
+    <label for="tea">Tea</label><br>
     <input type="checkbox" name="checker" value="bread" id="bread">
-    <label for="bread">Bread</label>
+    <label for="bread">Bread</label><br>
     <input type="checkbox" name="checker" value="revit" id="revit">
-    <label for="revit">Revit</label>
+    <label for="revit">Revit</label><br>
 
     <!--Textarea-->
     <textarea>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi aut commodi facilis excepturi optio soluta amet a quas dicta modi enim voluptate nesciunt fugiat laudantium repudiandae, provident vero voluptates quidem?
     </textarea>
+    <button id="submit">Submite</button>
   </form>
 </body>
 
