@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fork Me! FCC: Test Suite Template</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -19,7 +20,7 @@
     here', making it look like readable English</p>
 
   <form id="survey-form">
-    <div>
+    <div id="part1">
       <label for="name" id="name-label">Name:</label>
       <input type="text" id="name" placeholder="Enter your name" required><br>
       <label for="email" id="email-label">Email:</label>
@@ -28,7 +29,7 @@
       <input type="number" name="number" id="number" placeholder="Age" required min="12" max="120"><br>
     </div>
     <!-- Dropdown-->
-    <div>
+    <div id="part2">
       <label for="dropdown">My Favorite Activity</label>
       <select name="favorite" id="dropdown">
         <option value="default">Select an option</option>
@@ -39,8 +40,8 @@
     </div>
     <br>
     <!--Radio Input-->
-    <div>
-      <label for="less-favorite">My Less Favorite Activity</label>
+    <div id="part3">
+      <p>My Less Favorite Activity</p><br>
       <input type="radio" name="less-favorite" id="sleeping" value="sleeping">
       <label for="sleeping">Sleeping</label><br>
       <input type="radio" name="less-favorite" id="walking" value="walking">
@@ -48,7 +49,8 @@
     </div>
 
     <!--Checkboxes-->
-    <div>
+    <div id="part4">
+      <p>My Favorite food</p><br>
       <input type="checkbox" name="checker" value="tea" id="tea">
       <label for="tea">Tea</label><br>
       <input type="checkbox" name="checker" value="bread" id="bread">
@@ -58,11 +60,16 @@
     </div>
 
     <!--Textarea-->
-
+    <div id="part5">
+    <label for="comment">Additional Comments</label>
     <textarea>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi aut commodi facilis excepturi optio soluta amet a quas dicta modi enim voluptate nesciunt fugiat laudantium repudiandae, provident vero voluptates quidem?
-    </textarea>
-    <button id="submit">Submite</button>
+    </textarea><br>
+  </div>
+    <div id="part6">
+      <button id="submit">Submit</button>
+    </div>
+    
   </form>
 </body>
 
